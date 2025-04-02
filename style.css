@@ -1,0 +1,27 @@
+a:hover{
+background-color: aquamarine;
+padding: 10px;
+color: black;
+font-size: 10px;
+text-decoration:none;
+
+ }
+ul {
+list-style:square;
+list-style:circle ;
+list-style-image:url() ;
+} 
+
+ol{
+ list-style-type:upper-roman ;
+list-style-type: lower-roman;
+}
+ 
+
+ul li{
+background-color: aquamarine;
+    padding:8p 10px;
+
+}
+ol 
+
