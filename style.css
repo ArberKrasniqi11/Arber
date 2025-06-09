@@ -1,0 +1,135 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background-color: #4b2e2e;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.simple-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu a:hover {
+  background-color: #f4a261;
+  color: #4b2e2e;
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px 40px;
+  background-color: #4b2e2e;
+  color: white;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #f4a261;
+}
+
+.hero .button {
+  display: inline-block;
+  background-color: #f4a261;
+  color: #4b2e2e;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+/* General Section Styling */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Menu Section */
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* Contact Section */
+#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  padding: 10px;
+  background-color: #4b2e2e;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #f4a261;
+  margin: 0 5px;
+}
